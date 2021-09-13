@@ -2,26 +2,138 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>Заголовок страницы</title>
+        <title>Нёрдс</title>
     </head>
     <body>
-        <header class="main-header">
-            <!-- Шапка сайта-->
-            <h1>Основной заголовок страницы</h1>
+        <header>
             <nav>
+                <img src="img/logo.png" width="360" height="208" alt="Логотип дизайн студии Нердс">
                 <ul>
-                    <li>Пункт меню</li>
-                    <li>Ещё один пункт меню</li>
+                    <li><a href="blank.html">Студия</a></li>
                 </ul>
+                <ul>
+                    <li><a href="blank.html">Клиенты</a></li>
+                </ul>
+                <ul>
+                    <li><a href="catalog.html">Магазин</a></li>
+                </ul>
+                <ul>
+                    <li><a href="blank.html">Контакты</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Корзина</a></li>
+                </ul>
+                
             </nav>
-            <img src="/logo.svg" width="100" alt="Логотип компании">
         </header>
         <main>
-            <!-- Основное содержание страницы -->
+            <h1>Дизайн студия "НЕРДС"</h1>
+            <section>
+                <p>Долго, дорого, скрупулезно.</p>
+                <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+                <a href="#">Узнать больше</a>              
+            </section>
+            <section>
+                <img src="img/cellphones.png" alt="Телефоны на главном экране" width="760" height="431">
+            </section>
+            <section>
+                <h2>Услуги</h2>
+                <ul>
+                    <li>
+                        <img src="img/sites.svg" alt="услуга создания сайтов">
+                        <h3>ВЕБ-САЙТЫ</h3>
+                        <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                        <a href="catalog.html">Заказать</a>        
+                    </li>
+                    <li>
+                        <img src="img/apps.svg" alt="услуга создания приложений">
+                        <h3>ПРИЛОЖЕНИЯ</h3>
+                        <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+                        <a href="blank.html">Заказать</a>
+                    </li>
+                    <li>
+                        <img src="img/presentations.svg" alt="услуга создания презентаций">
+                        <h3>ПРЕЗЕНТАЦИИ</h3>
+                        <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+                        <a href="blank.html">Заказать</a>
+                   </li>
+                </ul>
+            </section>
+            <section>
+                <h2>О нас</h2>
+                <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+                <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчетпревыше креатива. Работаем не покладая рук, как роботы.</p>
+                <h3>Выполняем заказы на разработку:</h3>
+                <ul>
+                    <li>Веб-сайтов любой сложности</li>
+                    <li>Мобильных приложений для iOS и Android</li>
+                    <li>Слайдшоу и видео для корпоративных презентаций</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Преимущества</h2>
+                <img src="img/logo.png" alt="Логотип еще раз">
+                <table>
+                    <caption>с 2004 года Любим точность во всем:</caption>
+                    <tr>
+                        <th>146<sup>%</sup></th>
+                        <th>100<sup>%</sup></th>
+                        <th>50<sup>%</sup></th>
+                    </tr>
+                    <tr>
+                        <td>Уровень самоотдачи</td>
+                        <td>Соблюдение сроков</td>
+                        <td>Минимальная предоплата</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Наши партнеры</h2>
+                <ul>
+                    <li><a href="#"><img src="https://via.placeholder.com/199x57" alt="html academy"></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/209x90" alt="Барбершоп Бородинский"></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/185x52" alt="Pink"></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/173x84" alt=""></a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Контактная информация</h2>
+                <h3>NERDS DESIGN STUDIO</h3>
+                <p>
+                    наб. Реки Карповки,<br>
+                    5 лит П, Санкт-Петербург
+                </p>
+                <a href="tel:+78005558628">+7 800 555-86-28</a>
+            </section>
 
         </main>
-        <footer class="main-footer">
-            <!-- Подвал сайта -->
+        <footer>
+            <h2>ССылки и полезная информация</h2>
+            <ul>
+                <li><a href="#">VK</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+            <p>Давайте дружить, это выгодно!</p>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
         </footer>
+        <section>
+            <h2>Напишите нам</h2>
+            <form action="https://echo.htmlacademy.ru" method="post"">
+            <p>
+                <label for="customer-name">Ваше имя:</label>
+                <input type="text" id="customer-name" name="name" placeholder="Имя Фамилия">
+            </p>
+            <p>
+                <label for="customer-email">Ваш email:</label>
+                <input type="email" id="customer-email" name="email" placeholder="example@gmail.com">
+            </p>
+            <p>
+                <label for="customer-mail">Текст письма:</label>
+                <textarea name="mail" id="customer-mail" cols="33" rows="4"></textarea>
+            </p>
+            <button type="submit">Отправить</button>
+            </form>
+        </section>
     </body>
 </html>
