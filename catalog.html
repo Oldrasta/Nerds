@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Магазин готовых шаблонов</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img src="img/logo.png" width="360" height="208" alt="вернуться на главную"></a>
+                <ul>
+                    <li><a href="index.html">Студия</a></li>
+                    <li><a href="blank.html">Клиенты</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="blank.html">Контакты</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Корзина</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Магазин готовых шаблонов</h1>
+            <section>
+                <h2>Фильтр услуг</h2>
+                <form action="https://echo.htmlacademy.ru" method="post">
+                    <fieldset>
+                        <legend>Стоимость</legend>
+                            <p><input type="range" min="0" max="20000" step="100" value="15000" name="price-range"></p>
+                            <label for="from-id">от</label>
+                            <input type="text" name="from" id="from-id" placeholder="0">
+                            <label for="to-id">до</label>
+                            <input type="text" name="to" id="to-id" placeholder="15000">
+                    </fieldset>
+                    <fieldset>
+                        <legend>сетка:</legend>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="grid" id="adaptive-id">
+                                <label for="adaptive-id">Адаптивная</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="grid" id="fixed-id">
+                                <label for="fixed-id">Адаптивная</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="grid" id="flex-id">
+                                <label for="flex-id">Адаптивная</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+    
+    
+                </form>
+            </section>
+            
+        </main>
+        <footer>
+            <h2>Сcылки и полезная информация</h2>
+            <ul>
+                <li><a href="#">VK</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+            <p>Давайте дружить, это выгодно!</p>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+        </footer>
+        <section>
+            <h2>Напишите нам</h2>
+            <form action="https://echo.htmlacademy.ru" method="post">
+            <p>
+                <label for="customer-name">Ваше имя:</label>
+                <input type="text" id="customer-name" name="name" placeholder="Имя Фамилия">
+            </p>
+            <p>
+                <label for="customer-email">Ваш email:</label>
+                <input type="email" id="customer-email" name="email" placeholder="example@gmail.com">
+            </p>
+            <p>
+                <label for="customer-mail">Текст письма:</label>
+                <textarea name="mail" id="customer-mail" cols="33" rows="4"></textarea>
+            </p>
+            <button type="submit">Отправить</button>
+            </form>
+        </section>
+        </footer>
+    </body>
+</html>
