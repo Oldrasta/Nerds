@@ -1,188 +1,203 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <title>Магазин готовых шаблонов</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html"><img src="img/logo.png" width="360" height="208" alt="вернуться на главную"></a>
-                <ul>
-                    <li><a href="index.html">Студия</a></li>
-                    <li><a href="blank.html">Клиенты</a></li>
-                    <li><a href="#">Магазин</a></li>
-                    <li><a href="blank.html">Контакты</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#">Корзинаc</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Магазин готовых шаблонов</h1>
-            <section>
-                <h2>Фильтр услуг</h2>
-                <form action="https://echo.htmlacademy.ru" method="post">
-                    <fieldset>
-                        <legend>Стоимость</legend>
-                            <p><input type="range" min="0" max="20000" step="100" value="15000" name="price-range"></p>
-                            <label for="from-id">от</label>
-                            <input type="text" name="from" id="from-id" placeholder="0">
-                            <label for="to-id">до</label>
-                            <input type="text" name="to" id="to-id" placeholder="15000">
-                    </fieldset>
-                    <fieldset>
-                        <legend>сетка:</legend>
-                        <ul>
-                            <li>
-                                <input type="radio" name="grid" id="adaptive-id">
-                                <label for="adaptive-id">Адаптивная</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="grid" id="fixed-id">
-                                <label for="fixed-id">Фиксированная</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="grid" id="flex-id">
-                                <label for="flex-id">Резиновая</label>
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <fieldset>
-                        <legend>особенности:</legend>
-                        <ul>
-                            <li>
-                                <input type="checkbox" name="slider-block" id="slider-id" checked>
-                                <label for="slider-id">Слайдер</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="advantage-block" id="advantage-id">
-                                <label for="advantage-id">Блок преимуществ</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="news-block" id="news-id" checked>
-                                <label for="news-id">Новости</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="shop-backet-block" id="backet-id">
-                                <label for="backet-id">Корзина</label>
-                            </li>
-                        </ul>
-                        <button type="button">Показать</button>
-                    </fieldset>
-                </form>
-            </section>
-            <section>
-                <h2>Сортировка</h2>
-                <p>сортировать:</p>
-                <ul>
-                    <li>по цене</li>
-                    <li>по типу</li>
-                    <li>по названию</li>
-                </ul>
-                <ul>
-                    <li>по возрастанию</li>
-                    <li>по убыванию</li>
-                </ul>
-                <ul>
-                    <li>
-                        <p>
-                            <input type="checkbox" name="slider-1">
-                            <input type="checkbox" name="slider-1">
-                            <input type="checkbox" name="slider-1">
-                        </p>
-                        <img src="https://via.placeholder.com/358x578" alt="Реклама сайта Седона" width="358" height="578">
-                    </li>
-                    <li>
-                        <p>
-                            <input type="checkbox" name="slider-2">
-                            <input type="checkbox" name="slider-2">
-                            <input type="checkbox" name="slider-2">
-                        </p>
-                        <img src="https://via.placeholder.com/358x578" alt="Реклама сайта Pink" width="358" height="578">
-                    </li>
-                    <li>
-                        <p>
-                            <input type="checkbox" name="slider-3">
-                            <input type="checkbox" name="slider-3">
-                            <input type="checkbox" name="slider-3">
-                        </p>
-                        <img src="https://via.placeholder.com/358x578" alt="Реклама сайта Барбершоп>" width="358" height="578">
-                    </li>
-                    <li>
-                        <p>
-                            <input type="checkbox" name="slider-4">
-                            <input type="checkbox" name="slider-4">
-                            <input type="checkbox" name="slider-4">
-                        </p>
-                        <img src="https://via.placeholder.com/358x578" alt="Реклама сайта Мишка" width="358" height="578">
-                    </li>
-                    <li>
-                        <p>
-                            <input type="checkbox" name="slider-5">
-                            <input type="checkbox" name="slider-5">
-                            <input type="checkbox" name="slider-5">
-                        </p>
-                        <img src="https://via.placeholder.com/358x578" alt="Реклама сайта Aplus" width="358" height="578">
-                    </li>
-                    <li>
-                        <p>
-                            <input type="checkbox" name="slider-6">
-                            <input type="checkbox" name="slider-6">
-                            <input type="checkbox" name="slider-6">
-                        </p>
-                        <img src="https://via.placeholder.com/358x578" alt="Реклама сайта Кваст" width="358" height="578">
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2>Навигация по предложениям</h2>
-                <ul>
-                    <li>
-                        <a>1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">Следующая</a>
-                    </li>
-                </ul>
-            </section>
-            
-        </main>
-        <footer>
-            <h2>Сcылки и полезная информация</h2>
+  <head>
+    <meta charset="utf-8" />
+    <title>Магазин готовых шаблонов</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"
+          ><img
+            src="img/logo.png"
+            width="360"
+            height="208"
+            alt="вернуться на главную"
+        /></a>
+        <ul>
+          <li><a href="index.html">Студия</a></li>
+          <li><a href="blank.html">Клиенты</a></li>
+          <li><a>Магазин</a></li>
+          <li><a href="blank.html">Контакты</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Корзина</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Магазин готовых шаблонов</h1>
+      </section>
+
+      <section>
+        <h2>Фильтр услуг</h2>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Стоимость</legend>
+            <p>
+              <input type="range" min="0" max="20000" step="100" value="15000" name="price-range"/>
+            </p>
+            <p>
+              <label for="from-id">от</label>
+              <input type="text" name="from" id="from-id" value="0" />
+              <label for="to-id">до</label>
+              <input type="text" name="to" id="to-id" value="15000" />
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>сетка:</legend>
+              <p>
+                <input type="radio" name="grid" id="adaptive-id" />
+                <label for="adaptive-id">Адаптивная</label>
+              </p>
+              <p>
+                <input type="radio" name="grid" id="fixed-id" />
+                <label for="fixed-id">Фиксированная</label>
+              </p>
+              <p>
+                <input type="radio" name="grid" id="flex-id" />
+                <label for="flex-id">Резиновая</label>
+              </p>
+          </fieldset>
+          <fieldset>
+            <legend>особенности:</legend>
             <ul>
-                <li><a href="#">VK</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="slider-block"
+                  id="slider-id"
+                  checked
+                />
+                <label for="slider-id">Слайдер</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="advantage-block"
+                  id="advantage-id"
+                />
+                <label for="advantage-id">Блок преимуществ</label>
+              </li>
+              <li>
+                <input type="checkbox" name="news-block" id="news-id" checked />
+                <label for="news-id">Новости</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="shop-backet-block"
+                  id="backet-id"
+                />
+                <label for="backet-id">Корзина</label>
+              </li>
             </ul>
-            <p>Давайте дружить, это выгодно!</p>
-            <p>Скидка 10% для друзей из социальных сетей.</p>
-        </footer>
-        <section>
-            <h2>Напишите нам</h2>
-            <form action="https://echo.htmlacademy.ru" method="post">
-            <p>
-                <label for="customer-name">Ваше имя:</label>
-                <input type="text" id="customer-name" name="name" placeholder="Имя Фамилия">
-            </p>
-            <p>
-                <label for="customer-email">Ваш email:</label>
-                <input type="email" id="customer-email" name="email" placeholder="example@gmail.com">
-            </p>
-            <p>
-                <label for="customer-mail">Текст письма:</label>
-                <textarea name="mail" id="customer-mail" cols="33" rows="4"></textarea>
-            </p>
-            <button type="submit">Отправить</button>
-            </form>
-        </section>
-        </footer>
-    </body>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+      </section>
+      <section>
+        <h2>Сортировка</h2>
+        <p>сортировать:</p>
+        <ul>
+          <li>по цене</li>
+          <li>по типу</li>
+          <li>по названию</li>
+        </ul>
+        <ul>
+          <li>по возрастанию</li>
+          <li>по убыванию</li>
+        </ul>
+        <ul>
+          <li>
+              <img
+              src="https://via.placeholder.com/358x578"
+              alt="Реклама сайта Седона"
+              width="358"
+              height="578"
+            />
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/358x578"
+              alt="Реклама сайта Pink"
+              width="358"
+              height="578"
+            />
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/358x578"
+              alt="Реклама сайта Барбершоп>"
+              width="358"
+              height="578"
+            />
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/358x578"
+              alt="Реклама сайта Мишка"
+              width="358"
+              height="578"
+            />
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/358x578"
+              alt="Реклама сайта Aplus"
+              width="358"
+              height="578"
+            />
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/358x578"
+              alt="Реклама сайта Кваст"
+              width="358"
+              height="578"
+            />
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Навигация по предложениям</h2>
+        <ul>
+          <li>
+            <a>1</a>
+          </li>
+          <li>
+            <a href="#">2</a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+            <a href="#">Следующая</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Контактная информация</h2>
+        <h3>NERDS DESIGN STUDIO</h3>
+        <p>
+          наб. Реки Карповки,<br />
+          5 лит П, Санкт-Петербург
+        </p>
+        <a href="tel:+78005558628">+7 800 555-86-28</a>
+        <a href="#">Напишите нам</a>
+      </section>
+    </main>
+    <footer>
+      <h2>Сcылки и полезная информация</h2>
+      <ul>
+        <li><a href="#">VK</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+      <p>Давайте дружить, это выгодно!</p>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+    </footer>
+  </body>
 </html>
