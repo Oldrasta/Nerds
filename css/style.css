@@ -1,0 +1,12 @@
+.social a{
+  
+  background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+  
+  border: 1px solid #000000;
+  width: 81px;
+  height: 81px;
+}
+.instagram {
+  background-image:url(../img/insta-icon.svg) ;
+  background-color: red;
+}
