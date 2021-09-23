@@ -1,12 +1,41 @@
-.social a{
+
+
+
+.social_list {
   
-  background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
-  
-  border: 1px solid #000000;
   width: 81px;
-  height: 81px;
+  display:inline;
+  list-style-type: none;
 }
-.instagram {
-  background-image:url(../img/insta-icon.svg) ;
-  background-color: red;
+
+
+.social_link {
+display: inline-block;
+width:81px;
+height: 81px;
+background-color: #E1E1E1;
+border-radius: 50px;
+background-position: center;
+
+background-repeat: no-repeat;
+
+}
+
+.social_link-vk {
+  background-image: url(../img/social/vk-icon.svg);
+}
+.social_link-fb {
+  background-image: url(../img/social/fb-icon.svg);
+}
+.social_link-insta {
+  background-image: url(../img/social/insta-icon.svg);
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  …
 }
