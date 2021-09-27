@@ -1,35 +1,23 @@
 
 
 
-.social_list {
-  
-  width: 81px;
-  display:inline;
-  list-style-type: none;
-}
 
 
-.social_link {
-display: inline-block;
-width:81px;
-height: 81px;
-background-color: #E1E1E1;
-border-radius: 50px;
-background-position: center;
 
-background-repeat: no-repeat;
 
-}
 
-.social_link-vk {
-  background-image: url(../img/social/vk-icon.svg);
-}
-.social_link-fb {
-  background-image: url(../img/social/fb-icon.svg);
-}
-.social_link-insta {
-  background-image: url(../img/social/insta-icon.svg);
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .visually-hidden {
   position: absolute;
@@ -37,5 +25,6 @@ background-repeat: no-repeat;
   width: 1px;
   height: 1px;
   margin: -1px;
-  …
+ 
 }
+
