@@ -1,13 +1,66 @@
+/*Variables*/
+:root {
+  --basic-background:#888888;
+  --basic-white:#FFFFFF;
+  --basic-gray:#EEEEEE;
+  --basic-black:#000000;
+  --basic-dark:#283136;
+  --aditional-gray:#A6A6A6;
+  --basic-red:#FB565A;
+  --basic-green:#00CA74;
+  --basic-yelow:#EFC849;
+  --dark-gray:#4D4D4D;
+  --aditional-dark:#231F20;
+}
+.page-body {
+min-width: 1440px;
+margin: 0px;
+padding: 0px;
+font-family:'Roboto',sans-serif;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+background-color: var(--basic-background);
+}
+a {
+  text-decoration: none;
+  }
+img {
+max-width: 100%;
+height: auto;
+}
+.main-header {
+background: var(--basic-gray);
 
+}
+.container {
 
+  background-color: var(--basic-white);
+}
+.main-footer {
+  background-color: var(--basic-white);
+}
+.site-navigation {
+  list-style: none;
+}
 
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-black);
+}
 
-
-
-
-
-
-
+.site-navigation a,
+.cart-navigation a {
+  color:var(--basic-black);
+}
+.site-navigation a:hover,
+.cart-navigation a:hover {
+color: var(--basic-red);
+}
+.site-navigation a:focus,
+.cart-navigation a:focus {
+  color:var(--basic-black);
+  opacity: 30%;
+}
 
 
 

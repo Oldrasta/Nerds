@@ -9,27 +9,25 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Нёрдс</title>
   </head>
   <body class="page-body">
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo"><img src="img/nerds-logo.svg" width="160" height="66" alt="Логотип дизайн студии Нердс"/></a>
+        <a class="main-header-logo" href=""><img src="img/nerds-logo.svg" width="160" height="66" alt="Логотип дизайн студии Нердс"/></a>
         <ul class="site-navigation">
-          <li><a href="blank.html">Студия</a></li>
-        </ul>
-        <ul>
+          <li><a href="blank.html" class="site-navigation-current">Студия</a></li>
           <li><a href="blank.html">Клиенты</a></li>
-        </ul>
-        <ul>
           <li><a href="catalog.html">Магазин</a></li>
-        </ul>
-        <ul>
           <li><a href="blank.html">Контакты</a></li>
+          <li></li>
         </ul>
-        <ul>
-          <li><a class="cart-link" href="#">Корзина</a></li>
-        </ul>
+        <div class="cart-navigation">
+          <a class="cart-link" href="#">Корзина</a>
+        </div>
       </nav>
     </header>
     <main class="container">
