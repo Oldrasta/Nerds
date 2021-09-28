@@ -7,10 +7,17 @@
   --basic-dark:#283136;
   --aditional-gray:#A6A6A6;
   --basic-red:#FB565A;
+  --adititonal-red:#E74246;
+  --dark-red:#D7373B;
   --basic-green:#00CA74;
-  --basic-yelow:#EFC849;
+  --aditional-green:#00BC6C;
+  --dark-green:#00AA62;
+  --basic-yellow:#EFC849;
+  --aditional-yellow:#EAB534;
+  --dark-yellow:#E5A722;
   --dark-gray:#4D4D4D;
   --aditional-dark:#231F20;
+  --more-gray:#666666;
 }
 .page-body {
 min-width: 1440px;
@@ -21,6 +28,7 @@ font-size: 16px;
 line-height: 24px;
 font-weight: 400;
 background-color: var(--basic-background);
+color:var(--basic-dark);
 }
 a {
   text-decoration: none;
@@ -40,6 +48,8 @@ background: var(--basic-gray);
 .main-footer {
   background-color: var(--basic-white);
 }
+/*Основная навигация*/
+
 .site-navigation {
   list-style: none;
 }
@@ -61,12 +71,130 @@ color: var(--basic-red);
   color:var(--basic-black);
   opacity: 30%;
 }
+/*Slider section*/
+.slider {
+  background-color: var(--basic-gray);
+}
+.slider-slogan {
+  font-weight: 500;
+  color:var(--basic-black);
+  font-size:50px;
+  line-height: 55px;
+}
+/*Features section*/
+.features-list {
+  width: 300px;
+  list-style: none;
+  
+}
+.feature-wrapper {
+  width: 300px;
+  height: 146px;
+}
+.feature-wrapper-sites {
+  background: var(--basic-red) url(../img/decor/webcites.png) no-repeat;
+}
+.feature-wrapper-apps {
+  background: var(--basic-green) url(../img/decor/mobilephones.png) no-repeat;
+}
+.feature-wrapper-presentation {
+  background: var(--basic-yellow) url(../img/decor/presentations.png) no-repeat;
+}
+.feature-item h3 {
+  color:var(--basic-black);
+  text-transform: uppercase;
+}
+/*description section*/
+.description h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about-slogan {
+  color: var(--basic-black);
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
 
+.about-list {
+  list-style: none;
+}
 
+.advantages h3 {
+  color: var(--basic-black);
+}
+.advantages-list dt {
+  font-weight: 700;
+  color: var(--basic-black);
+  font-size: 45px;
+  line-height: 64px;
+}
+.advantages-list dd {
+line-height: 18px;
+}
+/*Partners section*/
+.partners-list {
+  list-style:none;
+}
+/*Contacts section*/
+.contacts p {
+  color: var(--more-gray);
+  line-height: 18px;
+}
+.contacts-phone {
+  color: var(--more-gray);
+  text-decoration: none;
+}
 
+/*Footer section*/
+.bonus-slogan {
+  color: var(--basic-black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+.social-list {
+  list-style: none;
+}
 
+/*Buttons*/
+.button {
+  text-align: center;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  border: none;
+  vertical-align: center;
+  text-transform: uppercase;
+}
+.button:hover {
+background-color: var(--adititonal-red);
+}
+.button:active
+ {
+  background-color: var(--dark-red);
+  opacity: 30;
+}
+.apps-button {
+  background-color: var(--basic-green);
+}
+.apps-button:hover {
+  background-color: var(--aditional-green);
+}
+.apps-button:active {
+  background-color: var(--dark-green);
+  
+}
 
-
+.presentation-button {
+  background-color: var(--basic-yellow);
+}
+.presentation-button:hover {
+  background-color: var(--aditional-yellow);
+}
+.presentation-button:active {
+  background-color: var(--dark-yellow);
+ 
+}
 
 
 

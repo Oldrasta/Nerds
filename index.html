@@ -31,10 +31,10 @@
       </nav>
     </header>
     <main class="container">
-      <h1>Дизайн студия "НЕРДС"</h1>
+      <h1 class="visually-hidden">Дизайн студия "НЕРДС"</h1>
       <section class="slider">
-        <h2>Слайдер</h2>
-        <p>Долго, дорого, скрупулезно.</p>
+        <h2 class="visually-hidden">Слайдер</h2>
+        <p class="slider-slogan">Долго, дорого, скрупулезно.</p>
         <p>
           Математически выверенный дизайн для вашего сайта или мобильного
           приложения
@@ -51,77 +51,74 @@
         <h2>Услуги</h2>
         <ul class="features-list">
           <li class="feature-item">
-            <img
-              src="img/decor/webcites.png"
-              alt="услуга создания сайтов"
-              width="300"
-              height="146"
-            />
-            <h3>ВЕБ-САЙТЫ</h3>
+            <div class="feature-wrapper feature-wrapper-sites">
+            </div>
+            <h3>веб-сайты</h3>
             <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <a href="catalog.html">Заказать</a>
+            <a class="button sites-button" href="catalog.html">Заказать</a>
           </li>
           <li class="feature-item">
-            <img
-              src="img/decor/mobilephones.png"
-              alt="услуга создания приложений"
-              width="300"
-              height="146"
-            />
-            <h3>ПРИЛОЖЕНИЯ</h3>
+            <div class="feature-wrapper feature-wrapper-apps">
+           
+            </div>
+            <h3>приложения</h3>
             <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-            <a href="blank.html">Заказать</a>
+            <a class="button apps-button" href="blank.html">Заказать</a>
           </li>
           <li class="feature-item">
+            <div class="feature-wrapper feature-wrapper-presentation">
             <img
               src="img/decor/presentations.png"
               alt="услуга создания презентаций"
               width="300"
               height="146"
             />
-            <h3>ПРЕЗЕНТАЦИИ</h3>
+          </div>
+            <h3>презентации</h3>
             <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-            <a href="blank.html">Заказать</a>
+            <a class="button presentation-button" href="blank.html">Заказать</a>
           </li>
         </ul>
       </section>
-      <section class="about">
-        <h2>О нас</h2>
-        <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
-        <p>
-          Исповедуем принципы минимализма и чистоты. Ставим математический
-          расчетпревыше креатива. Работаем не покладая рук, как роботы.
-        </p>
-        <h3>Выполняем заказы на разработку:</h3>
-        <ul class="about-list">
-          <li class="about-list-item">Веб-сайтов любой сложности</li>
-          <li class="about-list-item">Мобильных приложений для iOS и Android</li>
-          <li class="about-list-item">Слайдшоу и видео для корпоративных презентаций</li>
-        </ul>
-      </section>
-      <section class="advantages">
-        <h2>Преимущества</h2>
-        <img
-          src="img/decor/nerds-illustration.png"
-          alt="Логотип студии"
-          width="360"
-          height="208"
-        />
+      <section class="description">
+        <section class="about">
+          <h2>О нас</h2>
+          <p class="about-slogan">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+          <p>
+            Исповедуем принципы минимализма и чистоты. Ставим математический
+            расчетпревыше креатива. Работаем не покладая рук, как роботы.
+          </p>
+          <h3>Выполняем заказы на разработку:</h3>
+          <ul class="about-list">
+            <li class="about-list-item">Веб-сайтов любой сложности</li>
+            <li class="about-list-item">Мобильных приложений для iOS и Android</li>
+            <li class="about-list-item">Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </section>
+        <section class="advantages">
+          <h2>Преимущества</h2>
+          <img
+            src="img/decor/nerds-illustration.png"
+            alt="Логотип студии"
+            width="360"
+            height="208"
+          />
 
-        <h3>с 2004 года Любим точность во всем:</h3>
-        <dl class="advantages-list">
-          <dt>146<sup>%</sup></dt>
-          <dd>Уровень самоотдачи</dd>
-          <dt>100<sup>%</sup></dt>
-          <dd>Соблюдение сроков</dd>
-          <dt>50<sup>%</sup></dt>
-          <dd>Минимальная предоплата</dd>
-        </dl>
+          <h3>с 2004 года Любим точность во всем:</h3>
+          <dl class="advantages-list">
+            <dt>146<sup>%</sup></dt>
+            <dd>Уровень самоотдачи</dd>
+            <dt>100<sup>%</sup></dt>
+            <dd>Соблюдение сроков</dd>
+            <dt>50<sup>%</sup></dt>
+            <dd>Минимальная предоплата</dd>
+          </dl>
+        </section>
       </section>
       <section class="partners">
         <h2>Наши партнеры</h2>
-        <ul>
-          <li>
+        <ul class="partners-list">
+          <li class="partners-list-item">
             <a href="#"
               ><img
                 src="img/Partners/htmlacademy.svg"
@@ -130,7 +127,7 @@
                 height="68"
             /></a>
           </li>
-          <li>
+          <li class="partners-list-item">
             <a href="#"
               ><img
                 src="img/Partners/Barbershop.png"
@@ -139,7 +136,7 @@
                 height="90"
             /></a>
           </li>
-          <li>
+          <li class="partners-list-item">
             <a href="#"
               ><img
                 src="img/Partners/Pink.png"
@@ -148,7 +145,7 @@
                 height="52"
             /></a>
           </li>
-          <li>
+          <li class="partners-list-item">
             <a href="#"
               ><img
                 src="img/Partners/Mishka.png"
@@ -159,47 +156,51 @@
           </li>
         </ul>
       </section>
-    </main>
-    <footer class="main-footer">
-      <section class="footer-contacts">
+      <section class="contacts">
         <h2>Контактная информация</h2>
         <h3>NERDS DESIGN STUDIO</h3>
         <p>
           наб. Реки Карповки,<br />
           5 лит П, Санкт-Петербург
         </p>
-        <a class="footer-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-        <a class="button" href="#">Напишите нам</a>
-      </section>
-      <section class="footer-social">
-        <h2>Сcылки и полезная информация</h2>
-        <ul class="social-list">
-          <li class="social-list-item">
-            <a href="#" class="social_link social_link-vk"
-              ><p class="visually-hidden">VK</p></a
-            >
-          </li>
-          <li class="social-list-item">
-            <a href="#" class="social_link social_link-fb"
-              ><p class="visually-hidden">Facebook</p></a
-            >
-          </li>
-          <li class="social-list-item">
-            <a href="#" class="social_link social_link-insta"
-              ><p class="visually-hidden">Instagram</p></a
-            >
-          </li>
-        </ul>
-      </section>
-      
-      <p>Давайте дружить, это выгодно!</p>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
-      <img
+        <a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        <p><a class="button" href="#">Напишите нам</a></p>
+        <img
         src="img/map.png"
         alt="Карта как нас найти"
         width="1140"
         height="416"
       />
+      </section>
+    </main>
+    <footer class="main-footer">      
+      <section class="footer-social">
+        <h2>Сcылки и полезная информация</h2>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a href="#" class="social_link social_link-vk"
+              ><p >VK</p></a
+            >
+          </li>
+          <li class="social-list-item">
+            <a href="#" class="social_link social_link-fb"
+              ><p >Facebook</p></a
+            >
+          </li>
+          <li class="social-list-item">
+            <a href="#" class="social_link social_link-insta">
+              <p >Instagram</p>
+              
+              </a>
+          </li>
+        </ul>
+      </section>
+      <section class="bonus">
+        <p class="bonus-slogan">Давайте дружить, это выгодно!</p>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </section>
+      
+     
     </footer>
     <section class="appointment">
       <h2 class="appointment-info">Напишите нам</h2>
@@ -232,7 +233,7 @@
           ></textarea>
         </p>
         <button class="button" type="submit">Отправить</button>
-        <button class="close-button" type="submit">Закрыть</button>
+        <button class="button close-button" type="submit">Закрыть</button>
       </form>
     </section>
   </body>
