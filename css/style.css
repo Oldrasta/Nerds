@@ -48,9 +48,7 @@ list-style: none;
   align-content: start;
 }
 
-.page-body h1 {
-  background-color: var(--basic-gray);
-}
+
 
 a {
   text-decoration: none;
@@ -147,9 +145,7 @@ color: var(--basic-red);
   opacity: 30%;
 }
 
-.main-backgound {
-background: var(--basic-gray);
-}
+
 
 .container {
   width: 1157px;
@@ -293,10 +289,7 @@ margin:0;
 
 /*Footer section*/
 
-.main-footer {
-  background-color: var(--basic-white);
-  
-}
+
 .footer-columns {
   display: grid;
   grid-template-columns: 1fr 2fr;
